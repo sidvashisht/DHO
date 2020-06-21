@@ -14,7 +14,7 @@
 }
 .glow{
   position: relative;
-  top: 0.8rem;
+  top: 0.4rem;
   font-family: 'Bad Script';
   display: inline-block;
   color: white;
@@ -43,6 +43,12 @@
 .abt{
   margin-top: 5%;
   padding: 2% 10% 2% 15%;
+}
+@media only screen and (max-width: 450px) {
+  .virus-png{
+    position: relative;
+    bottom: 7rem;
+  }
 }
 .virus{
   text-align: center;
@@ -99,6 +105,37 @@ ol{
 }
 .last{
   padding-bottom: 5rem;
+}
+
+.card{
+  text-align: center;
+}
+.card-text{
+  font-size: 1.2rem;
+}
+.modal-backdrop {
+  background-color: #e7dfd5;
+}
+.modal-content{
+  background-color: #e7dfd5;
+}
+.modal-title{
+  font-size: 2.5rem;
+  color: #01a9b4;
+}
+.modal-body{
+  color: #888888;
+}
+.modal-foot{
+  color: #888888;
+  font-size: 0.9rem;
+}
+.yoga-links{
+  font-size: 1.5rem;
+  color: #222831;
+}
+.yoga-links:hover{
+  color: #7bb4c3;
 }
 .footer{
   background-color: #7bb4c3;
